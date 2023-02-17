@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOUM</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Tourney:wght@200&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -93,7 +93,30 @@
      <!--/header top-->
 
      <!-- header main-->
+     <div class="main-header container d-flex align-items-center">
+         <a href="#" class="logo d-block">coffee</a>
+         <ul class="nav list-style-none d-flex">
+             <li><a href="#">홈</li>
+             <li><a href="#">팬카페</a></li>   
+             <li><a href="#">카페랭킹</a></li> 
+             <li><a href="#">니카페</a></li>
+             <li class="last"><a href="#">온라인 교실</a></li> 
+         </ul>
+         <form id="searchform">
+            <div class="selectbox">
+               <a href="#" class="search-select">통합검색</a>
+               <div class="search-sbox">
+                  <a href="#">카페검색</a>
+                  <a href="#">통합검색</a>
+                  <a href="#">카페이름</a>
+                  <a href="#">카페글</a>
+               </div>
+            </div>
+            <input type="text" name="searchtext" id="searchtext" placeholder="검색어를 입력하세요."/>
+            <button type="button" class="btn-none"><i class="fa-solid fa-magnifying-glass"></i></button>
+         </form>
 
+     </div>    
      <!-- /header main-->
     </header>  
 </body>
