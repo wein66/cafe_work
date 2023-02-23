@@ -171,13 +171,28 @@ a.all{
 .selectbox{
     display:inline-block;
     position:relative;
+    width:80px;
+}
+.search-select{
+    font-size:14px;
+    padding-right:2px;
 }
 .search-sbox{
     position:absolute;
     background:#fff;
     border:1px solid #999;
-    width:120px;
+    padding:10px;
+    font-size:13px;
+    display:none;
+}
+.search-sbox a:first-child{
+    color:#ff5656;
+    font-weight:600;
 }
 .search-sbox>a{
     display:block;
+}
+.search-sbox>a:hover{
+    background:#fbe0e0;
+    text-decoration:underline;
 }

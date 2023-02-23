@@ -102,9 +102,10 @@
              <li><a href="#">니카페</a></li>
              <li class="last"><a href="#">온라인 교실</a></li> 
          </ul>
-         <form id="searchform">
+         <form id="searchform" method="get">
             <div class="selectbox">
-               <a href="#" class="search-select">통합검색</a>
+               <a href="#" class="search-select">카페검색</a>
+               <i class="fa-solid fa-angle-down"></i>
                <div class="search-sbox">
                   <a href="#">카페검색</a>
                   <a href="#">통합검색</a>
@@ -112,8 +113,9 @@
                   <a href="#">카페글</a>
                </div>
             </div>
+            <input type="hidden" name="selectbox" id="selectbox">
             <input type="text" name="searchtext" id="searchtext" placeholder="검색어를 입력하세요."/>
-            <button type="button" class="btn-none"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button type="submit" class="btn-none"><i class="fa-solid fa-magnifying-glass"></i></button>
          </form>
 
      </div>    
