@@ -26,6 +26,12 @@ $(function(){
        $('.search-sbox').hide();
        $('.selectbox').find('.fa-solid').removeClass('fa-angle-up').addClass('fa-angle-down');
        $('#selectbox').val(txt);
-   })
+       $('#searchtext').focus();
+   });
+
+  $('.hero li').mouseenter(function(){
+      $('.hero li').removeClass('active');
+      $(this).addClass('active');
+  });
 
 });  //jquery
