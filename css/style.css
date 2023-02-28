@@ -408,3 +408,63 @@ p.dg::before{
     font-size:1.2em;
     font-weight:400;
 }
+.niniz{
+    background-color:#4260aa;
+    height:200px;
+    position:relative;
+    overflow:hidden;
+}
+.face{
+    width:250px;
+    height:220px;
+    background:#fff;
+    border: 5px solid #000;
+    border-radius:50%;
+    position:absolute;
+    bottom:-70px;
+    right:-80px;
+}
+.eye{
+    position:absolute;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color:#000;
+    top:80px;
+}
+.leye{
+    right:140px;
+}
+.reye{
+    right:110px;
+}
+.nose{
+    width:50px;
+    height:45px;
+    border-radius:50%;
+    background-color:#a8e6ff;
+    position:absolute;
+    top:90px;
+    left:85px;
+    overflow:hidden;
+}
+.nostrils{
+    border:3px solid #000;
+    border-radius:50%;
+    width:40px;
+    height:38px;
+    left:-13px;
+    top:-12px;
+    display:inline-block;
+    position:absolute;
+}
+.rnostrils{
+   left:22px;
+}
+.niniz h1{
+    font-size:1.4em;
+    color:#fff;
+    font-weight:700;
+    margin-left:20px;
+    letter-spacing:-3px;
+}
