@@ -468,3 +468,110 @@ p.dg::before{
     margin-left:20px;
     letter-spacing:-3px;
 }
+.page{
+    padding-top:40px;
+    padding-bottom:40px;
+    margin-bottom:40px;
+    letter-spacing:5px;
+}
+.page>span{
+    cursor:pointer;
+}
+.strong{
+    font-weight:700;
+}
+.lst::before{
+    content:"/";
+}
+/************* 팬카페 ************/
+.fancafe{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #efefef;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+.fa-book-skull{
+    color:#ff5656;
+    margin-right:5px;
+}
+.fancafe h1{
+    margin-bottom:20px;
+}
+.card{
+    border-radius:5px;
+    overflow:hidden;
+}
+.card-img{
+    position:relative;
+}
+.ctbox{
+    background:#000;
+    width:60px;
+    height:60px;
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    top:0;
+    left:0;
+    font-size:25px;
+    font-weight:300;
+    padding-top:5px;
+}
+.ctbox::after{
+    content:"";
+    width:8px;
+    height:2px;
+    background:rgba(255,255,255,0.8);
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:18px;
+}
+.card-img img{
+    width:110%;
+    height:230px;
+    object-fit:cover;
+    object-position: center;
+    display:block;
+}
+.card-body{
+    background-color:#fff;
+    padding:30px 25px;
+    display:flex;
+}
+.card-body img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    object-fit: cover;
+    margin-right:20px;
+}
+.card-body h1{
+    margin:0;
+    padding:0;
+    padding-bottom:3px;
+}
+.tbox{
+    font-size:14px;
+}
+.tbox span{
+    position:relative;
+    display:inline-block;
+    margin-right:5px;
+    padding-left:8px;
+}
+.tbox span::before{
+    content:"";
+    position:absolute;
+    display:block;
+    width:5px;
+    height:5px;
+    background:#8fabe7;
+    top:7px;
+    left:0px;
+}
+.card:hover{
+    box-shadow:0 0 8px 0 rgba(0,0,0,0.2),
+               0 0 25px 0 rgba(0,0,0,0.09);
+}
