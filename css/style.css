@@ -575,3 +575,81 @@ p.dg::before{
     box-shadow:0 0 8px 0 rgba(0,0,0,0.2),
                0 0 25px 0 rgba(0,0,0,0.09);
 }
+/********** category ************/
+.category{
+    padding-top:5px;
+    padding-bottom:50px;
+}
+.category h1{
+    font-weight:300;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.category a{
+    display:inline-block;
+    font-size:35px;
+    font-weight:100;
+    margin: 5px 15px 5px 0;
+    position:relative;
+}
+.category a.strong{
+    font-weight:700;
+}
+.category a::before{
+    content:'';
+    height:4px;
+    background-color:#ff5656;
+    position:absolute;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    left:0;
+    right:0;
+    bottom:0;
+    transform-origin: bottom right;
+}
+.category a:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+footer{
+    padding-top:120px;
+    padding-bottom:50px;
+    background:url(../images/character_01.png) no-repeat right bottom;
+    background-size:25%;
+    position:relative;
+}
+.footerlogo{
+    display:inline-block;
+    position:absolute;
+    width:100px;
+    top:10px;
+    left:-20px;
+}
+.footerlogo img{
+    max-width:100%;
+    filter:grayscale(100%);
+}
+.footer-nav{
+    display:flex;
+    font-size:14px;
+    font-weight:300;
+    margin:0;
+    padding:0;
+    list-style:none;
+    margin-top:-30px;
+}
+.footer-nav li{
+    margin-right:20px;
+    position:relative;
+}
+.footer-nav li:not(:last-child)::after{
+    content:"";
+    width:2px;
+    height:2px;
+    border-radius:50%;
+    background:#333;
+    position:absolute;
+    top:10px;
+    right:-12px;
+}
