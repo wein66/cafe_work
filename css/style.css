@@ -491,6 +491,9 @@ p.dg::before{
     border-top: 1px solid #dedede;
     border-bottom: 1px solid #dedede;
 }
+.alltext{
+    align-self:center;
+}
 .fa-book-skull{
     color:#ff5656;
     margin-right:5px;
@@ -643,6 +646,9 @@ footer{
     margin-right:20px;
     position:relative;
 }
+.footer-nav li a:hover{
+    text-decoration:underline;
+}
 .footer-nav li:not(:last-child)::after{
     content:"";
     width:2px;
@@ -652,4 +658,24 @@ footer{
     position:absolute;
     top:10px;
     right:-12px;
+}
+.angletop{
+    display:block;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    z-index:100;
+    width:60px;
+    height:60px;
+    border:1px solid #ddd;
+    border-radius:5px;
+    background-color:#ededed;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.08);
+    text-align:center;
+    padding-top:15px;
+    display:none;
+}
+.angletop i{
+    font-size:30px;
+    color:#777;
 }

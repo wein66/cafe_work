@@ -72,6 +72,14 @@ jQuery.ajax({
    }
 })
 
+$(window).on('scroll', function(){
+   if($(window).scrollTop() > 2000){
+       $('.angletop').fadeIn();
+   }else{
+      $('.angletop').fadeOut();
+   }
+});
+
 });  //jquery
 
 function mySlide(){
